@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Tabela</title>
+  <title>Tabelas</title>
 </head>
 
-<body style="padding: 0px; margin: 0px">
-  <div class="cx1">
-    <table>
-      <tr>
-        <th colspan="2">Nome</th>
-        <th>Idade</th>
-      </tr>
-      <tr>
-        <td>Daniel</td>
-        <td>Daniel</td>
-        <td>11</td>
-      </tr>
-      <tr>
-        <td>Caio</td>
-        <td>Caio</td>
-        <td>11</td>
-      </tr>
-      <tr>
-        <td>Celso</td>
-        <td>Celso</td>
-        <td>11</td>
-      </tr>
-      <tr>
-        <td>Erik</td>
-        <td>Erik</td>
-        <td>11</td>
-      </tr>
-    </table>
-  </div>
+<body>
+  <table>
+    <tr>
+      <th colspan="2">Nome</th>
+      <th>Idade</th>
+    </tr>
+    <tr>
+      <td>Daniel</td>
+      <td>Daniel</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Caio</td>
+      <td>Caio</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Celso</td>
+      <td>Celso</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Erik</td>
+      <td>Erik</td>
+      <td>11</td>
+    </tr>
+  </table>
 
-  <table class="cx2">
+  <table>
     <tr>
       <th rowspan="2">Nome</th>
       <td>Daniel</td>
@@ -61,6 +60,50 @@
     </tr>
   </table>
 
+  <table>
+    <tr>
+      <th style="background-color: yellow;" colspan="3">Tabela de Contas e Saldos</th>
+    </tr>
+    <tr>
+      <td class="titulo2">Tipo de Despesa</td>
+      <td class="titulo2">Descrição</td>
+      <td class="titulo2">Valor</td>
+    </tr>
+    <tr>
+      <td rowspan="5" style="background-color: aqua;">Doméstica</td>
+      <td class="item">Compras do Mês</td>
+      <td class="item">$ 280,00</td>
+    </tr>
+    <tr>
+      <td class="item">Aluguel</td>
+      <td class="item">$ 450,00</td>
+    </tr>
+    <tr>
+      <td class="item">Luz</td>
+      <td class="item">$ 120,00</td>
+    </tr>
+    <tr>
+      <td class="item">Água</td>
+      <td class="item">$ 111,00</td>
+    </tr>
+    <tr>
+      <td class="item">Telefone</td>
+      <td class="item">$ 90,00</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="background-color: aqua;">Externa</td>
+      <td class="item">Gasolina</td>
+      <td class="item">$ 450,00</td>
+    </tr>
+    <tr>
+      <td class="item">Almoço</td>
+      <td class="item">$ 200,00</td>
+    </tr>
+    <tr>
+      <td colspan="2">Subtotal</td>
+      <td style="background-color: yellow;">$ 1.700,00</td>
+    </tr>
+  </table>
 </body>
 
 </html>
