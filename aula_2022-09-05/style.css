@@ -1,0 +1,42 @@
+table, th, td {
+  border-spacing: 0px;
+  width: 80%;
+  border: 1px solid beige;
+  background-color: blueviolet;
+}
+
+td, th {
+  width: 50%;
+  padding: 7px;
+  text-align: center;
+}
+
+.cx1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid beige; */
+  /* background-color: blueviolet; */
+}
+
+.cx2 {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  /* width: 80%; */
+  height: 80vh;
+  background-color: gray;
+}
