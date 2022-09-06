@@ -27,4 +27,10 @@ td, th {
 
 .item {
   background-color: burlywood;
+  text-align: start;
+}
+
+.itemfinal {
+  background-color: burlywood;
+  text-align: end;
 }
