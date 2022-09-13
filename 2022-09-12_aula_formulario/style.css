@@ -1,0 +1,36 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(44, 49, 85);
+}
+
+table {
+  border-spacing: 0px;
+  padding: 15px;
+}
+
+td, th {
+  background-color: rgb(176, 178, 255);
+  border: 1px solid rgb(135, 138, 234);
+  padding: 7px;
+  text-align: center;
+}
+
+.itemfinal {
+  background-color: rgb(108, 90, 176);
+  text-align: end;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+input {
+  width: 200px
+}
